@@ -1,0 +1,16 @@
+server:
+  port: 9528
+spring:
+  application:
+    name: user-provider
+
+dubbo:
+  application:
+    name: user-provider
+    registry: zookeeper://123.56.80.158:2181
+    protocol:
+      name: dubbo
+      port: -1
+      host: localhost-provider
+    scan:
+      base-packages: cn.ddx.userprovider.service
