@@ -1,7 +1,7 @@
 package cn.ddx.userprovider.service;
 
 import cn.ddx.mydubbo.api.service.UserService;
-import com.alibaba.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.Service;
 
 /**
  * @author daniel.hou
